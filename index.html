@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab03</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="image-preview">
+        <img src="https://upload.wikimedia.org/wikipedia/en/6/66/King_Abdulaziz_University_%28emblem%29.jpg">
+    </div>
+
+
+    <div id="header">
+        <span class="myclass1">Every</span>
+        <span class="myclass2">one can</span>
+        <span class="myclass3">success.</span>
+    </div>
+    <p> One machine can do the work of fifty ordinary men.
+        <span class="myclass4">No machine can do the work of one extraordinary man.</span>
+    </p>
+
+
+
+
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>color</th>
+                <th>color when mouse over</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>span.myclass1</strong></td>
+                <td style="color: pink;">pink</td>
+                <td style="color: blue;">blue</td>
+            </tr>
+            <tr>
+                <td><strong>span.myclass2</strong></td>
+                <td style="color: pink;">pink</td>
+                <td style="color: pink;">pink</td>
+            </tr>
+            <tr>
+                <td><strong>span.myclass3</strong></td>
+                <td style="color: orange;">orange</td>
+                <td style="color: orange;">orange</td>
+            </tr>
+            <tr>
+                <td><strong>span.myclass4</strong></td>
+                <td style="color: red;">red</td>
+                <td style="color: red;">red</td>
+            </tr>
+        </tbody>
+    </table>
+    <style>
+        p>span {
+            color: red;
+        }
+
+        #header span {
+            color: pink;
+        }
+
+        span {
+            color: green;
+        }
+
+        #header *:last-child {
+            color: orange;
+        }
+
+        #header span:first-child:hover {
+            color: blue;
+        }
+    </style>
+</body>
+
+</html>
